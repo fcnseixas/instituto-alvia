@@ -24,10 +24,6 @@
   font-weight:400 700;      /* evita o navegador "engrossar" a fonte artificialmente */
   font-style:normal;
   font-display:swap;
-  /* A Hey Comic não tem o dígito 0, ":", ";", travessão, º/ª e apóstrofo curvo.
-     Este unicode-range exclui essa faixa, então números e esses sinais usam
-     Montserrat de forma consistente, em vez de misturar as duas fontes. */
-  unicode-range:U+0020-002F, U+003F-024F;
 }
 </style>
 
@@ -40,23 +36,19 @@
 :root{
   /* ---- fotos (placeholders Unsplash, uso livre) ---- */
   /* HERO — descomente UMA opção (todas livres, Unsplash License).
-     1 · grupo de crianças brincando no chão, plano aberto
-     1b · grupo sentado no tapete da sala, plano aberto
+     1 · menino desenhando à mesa, em sala de aula
      2 · criança desenhando em papel laranja, mesa de madeira com materiais
-     3 · duas crianças à mesa com canetinhas (trabalho em dupla)
+     3 · duas crianças à mesa com canetinhas (trabalho em dupla)  ← ativa
      4 · menininho à mesa com giz de cera
      5 · criança escrevendo em papel
-     0 · crianças brincando em campo aberto (a primeira versão)
-     6 · roda de crianças sentadas no chão com a professora  ← ativa */
-  /* --img-hero:url("https://images.unsplash.com/photo-1578349035260-9f3d4042f1f7?auto=format&fit=crop&w=2400&q=70"); */
-  /* --img-hero:url("https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?auto=format&fit=crop&w=2400&q=70"); */
+     0 · crianças brincando em campo aberto (a primeira versão) */
+  /* --img-hero:url("https://images.unsplash.com/photo-1761208662441-9ba3264ca7fd?auto=format&fit=crop&w=2400&q=70"); */
   /* --img-hero:url("https://images.unsplash.com/photo-1605627079912-97c3810a11a4?auto=format&fit=crop&w=2400&q=70"); */
-  /* --img-hero:url("https://images.unsplash.com/photo-1617117206620-b01f2919ff86?auto=format&fit=crop&w=2400&q=70"); */
+  --img-hero:url("https://images.unsplash.com/photo-1617117206620-b01f2919ff86?auto=format&fit=crop&w=2400&q=70");
   /* --img-hero:url("https://images.unsplash.com/photo-1637195141546-2469a5312504?auto=format&fit=crop&w=2400&q=70"); */
   /* --img-hero:url("https://images.unsplash.com/photo-1553419096-efeafe17bbb7?auto=format&fit=crop&w=2400&q=70"); */
   /* --img-hero:url("https://images.unsplash.com/photo-1756982478237-2d3caa008bee?auto=format&fit=crop&w=2400&q=70"); */
-  --img-hero:url("https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=2400&q=70");
-  --hero-pos:center 48%;   /* ajuste o enquadramento aqui (ex.: center 30%, 60% center) */
+  --hero-pos:center 45%;   /* ajuste o enquadramento aqui (ex.: center 30%, 60% center) */
   --img-sobre:url("https://images.unsplash.com/photo-1617080090911-91409e3496ad?auto=format&fit=crop&w=1400&q=75");
   --img-familia:url("https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=2000&q=70");
 
@@ -178,7 +170,7 @@ header.solid .menu-toggle{color:var(--ink)}
 .stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
 .stat{padding:44px 30px;border-right:1px solid rgba(255,255,255,.10)}
 .stat:last-child{border-right:0}
-.stat .v{font-family:var(--font-body);font-size:clamp(34px,3.4vw,46px);font-weight:700;letter-spacing:-.02em;line-height:1.05;margin-bottom:10px}
+.stat .v{font-family:var(--font-display);font-size:clamp(34px,3.4vw,46px);font-weight:600;letter-spacing:-.01em;line-height:1.05;margin-bottom:10px}
 .stat .k{color:var(--terra-soft);margin-bottom:8px;display:block}
 .stat p{color:rgba(255,255,255,.62);font-size:14.5px;line-height:1.5}
 
@@ -196,7 +188,7 @@ header.solid .menu-toggle{color:var(--ink)}
   position:absolute;left:-26px;bottom:34px;background:#fff;border-radius:var(--r-md);
   padding:22px 26px;box-shadow:var(--shadow);width:min(256px,74%);
 }
-.badge-float .v{font-family:var(--font-body);font-size:29px;font-weight:700;color:var(--terra);letter-spacing:-.02em;line-height:1.1}
+.badge-float .v{font-family:var(--font-display);font-size:29px;font-weight:600;color:var(--terra);letter-spacing:-.01em;line-height:1.1}
 .badge-float p{font-size:13.5px;margin-top:6px;line-height:1.45}
 
 /* cards */
@@ -220,7 +212,7 @@ header.solid .menu-toggle{color:var(--ink)}
 /* passos */
 .steps{display:grid;grid-template-columns:repeat(2,1fr);gap:0 56px}
 .step{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid rgba(22,48,63,.10)}
-.step .n{font-family:var(--font-body);color:var(--terra);font-size:14px;font-weight:700;letter-spacing:.06em;padding-top:5px}
+.step .n{font-family:var(--font-display);color:var(--terra);font-size:16px;font-weight:600;padding-top:3px}
 .step h3{margin-bottom:6px}
 .step p{font-size:15.5px}
 
