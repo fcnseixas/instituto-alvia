@@ -355,6 +355,9 @@ footer li{padding:6px 0}
 footer a:hover{color:var(--terra-soft)}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.10);padding-top:24px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:13px}
 .foot-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.foot-copy{display:flex;flex-direction:column;gap:4px}
+.foot-cred a{color:var(--terra-soft);font-weight:600}
+.foot-cred a:hover{color:var(--terra)}
 .to-top{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid rgba(255,255,255,.22);border-radius:999px;transition:border-color .2s ease,color .2s ease,transform .2s ease}
 .to-top:hover{border-color:var(--terra-soft);color:var(--terra-soft);transform:translateY(-2px)}
 .to-top svg{width:14px;height:14px}
@@ -907,7 +910,10 @@ footer a:hover{color:var(--terra-soft)}
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Instituto Alvia · Educação Especializada</span>
+      <div class="foot-copy">
+        <span>© 2026 Instituto Alvia · Educação Especializada</span>
+        <span class="foot-cred"><a href="https://sinal7.com.br" target="_blank" rel="noopener">Sinal7</a></span>
+      </div>
       <div class="foot-actions">
         <a href="privacidade.html">Política de privacidade</a>
         <a href="#top" class="to-top" aria-label="Voltar ao topo">
