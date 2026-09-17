@@ -9,7 +9,9 @@ escola particular especializada na escolarização de crianças neurodivergentes
 |---|---|
 | `index.html` | Site onepage. Arquivo único, CSS e JS embutidos, logo em base64. |
 | `apresentacao.html` | Deck de 17 slides (scroll-snap, setas do teclado, dots laterais). |
+| `privacidade.html` | Política de privacidade (LGPD). Texto-base, ainda a validar juridicamente. |
 | `fonts/` | Hey Comic — fonte de destaque da identidade (`.woff2` e `.ttf`). |
+| `video/` | Vídeo de fundo da faixa da citação. Placeholder livre (Pexels, sem atribuição). |
 
 ## Identidade
 
@@ -55,6 +57,8 @@ Ao trocar pelas fotos da escola: salve em `img/`, troque as URLs e mantenha o
 
 - [ ] Substituir fotos placeholder por fotos reais da escola
 - [ ] Definir a foto final da hero (opções 0 a 6 comentadas no CSS)
+- [ ] Substituir o vídeo de fundo placeholder (`video/`) por filmagem própria da escola
+- [ ] Validar juridicamente a Política de Privacidade (razão social/CNPJ, DPO, provedores, retenção)
 - [ ] Ligar o formulário de contato a um backend (Formspree, Vercel Function ou similar)
 - [ ] Revisar textos com a coordenação pedagógica
 - [ ] Favicon e imagem de compartilhamento (Open Graph)

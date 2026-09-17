@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Instituto Alvia</title>
+<meta name="description" content="Como o Instituto Alvia coleta, usa e protege os dados pessoais informados no site.">
+<meta name="robots" content="index,follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* Hey Comic — mesma configuração do site (sem dígitos, ":", ";", travessão, º/ª e apóstrofo curvo) */
+@font-face{
+  font-family:"Hey Comic";
+  src:url("fonts/HeyComic.woff2") format("woff2"),
+      url("fonts/HeyComic.ttf") format("truetype");
+  font-weight:400 700;
+  font-style:normal;
+  font-display:swap;
+  unicode-range:U+0020-002F, U+003F-024F;
+}
+
+:root{
+  --navy:#2F5C7C;
+  --navy-deep:#1B3A50;
+  --ink:#16303F;
+  --terra:#C06C50;
+  --terra-soft:#E08A66;
+  --cream:#FBF7F1;
+  --cream-2:#F3EBE1;
+  --sand:#EADFD1;
+  --body:#4A6273;
+
+  --font-body:"Montserrat",system-ui,-apple-system,sans-serif;
+  --font-display:"Hey Comic","Montserrat",system-ui,sans-serif;
+
+  --r-md:18px; --r-lg:26px;
+  --shadow:0 18px 48px rgba(22,48,63,.10);
+  --max:820px;
+  --nav-h:72px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
+body{
+  margin:0;font-family:var(--font-body);color:var(--ink);
+  background:var(--cream);line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+/* topo */
+header{
+  height:var(--nav-h);background:var(--ink);color:#fff;
+  display:flex;align-items:center;position:sticky;top:0;z-index:10;
+}
+header .wrap{display:flex;align-items:center;justify-content:space-between;width:100%}
+.brand{font-family:var(--font-display);font-size:24px;color:#fff;letter-spacing:.01em}
+.back{
+  display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:500;
+  color:rgba(255,255,255,.82);transition:color .2s ease
+}
+.back:hover{color:var(--terra-soft)}
+.back svg{width:16px;height:16px}
+
+/* conteúdo */
+main{padding:56px 0 72px}
+.eyebrow{
+  font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--terra);font-weight:600;margin:0 0 14px
+}
+h1{
+  font-family:var(--font-display);font-weight:400;line-height:1.05;
+  font-size:clamp(38px,6vw,56px);color:var(--navy-deep);margin:0 0 12px
+}
+.updated{font-size:14px;color:var(--body);margin:0 0 40px}
+.card{
+  background:#fff;border:1px solid var(--sand);border-radius:var(--r-lg);
+  box-shadow:var(--shadow);padding:14px 30px 30px
+}
+h2{
+  font-size:19px;font-weight:600;color:var(--navy-deep);
+  margin:34px 0 10px;letter-spacing:.005em
+}
+p{margin:0 0 14px;color:var(--ink)}
+ul{margin:0 0 14px;padding-left:20px}
+li{margin:6px 0}
+strong{color:var(--navy-deep)}
+a.link{color:var(--terra);font-weight:500;border-bottom:1px solid rgba(192,108,80,.35)}
+a.link:hover{color:var(--terra-soft)}
+
+.note{
+  margin-top:28px;padding:18px 22px;border-radius:var(--r-md);
+  background:var(--cream-2);border:1px dashed var(--sand);
+  font-size:14px;color:var(--body)
+}
+.note strong{color:var(--terra)}
+
+/* rodapé */
+footer{background:var(--ink);color:rgba(255,255,255,.66);padding:34px 0;font-size:13px;margin-top:56px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer a:hover{color:var(--terra-soft)}
+.to-top{
+  display:inline-flex;align-items:center;gap:8px;padding:9px 15px;
+  border:1px solid rgba(255,255,255,.22);border-radius:999px;
+  transition:border-color .2s ease,color .2s ease,transform .2s ease
+}
+.to-top:hover{border-color:var(--terra-soft);color:var(--terra-soft);transform:translateY(-2px)}
+.to-top svg{width:14px;height:14px}
+
+@media(max-width:560px){
+  .card{padding:8px 20px 24px}
+  main{padding:40px 0 56px}
+}
+</style>
+</head>
+<body id="top">
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="brand">Instituto Alvia</a>
+    <a href="index.html" class="back" aria-label="Voltar ao site">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Voltar ao site
+    </a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="eyebrow">Instituto Alvia · Educação Especializada</p>
+    <h1>Política de Privacidade</h1>
+    <p class="updated">Última atualização: 17 de setembro de 2026</p>
+
+    <div class="card">
+      <h2>1. Quem somos</h2>
+      <p>
+        O <strong>Instituto Alvia — Educação Especializada</strong> é responsável pelo tratamento
+        dos dados pessoais coletados neste site, na condição de controlador, nos termos da
+        Lei nº 13.709/2018 (Lei Geral de Proteção de Dados — LGPD).
+      </p>
+      <ul>
+        <li>Endereço: Rua Miguel Gonçalves Correia, 257</li>
+        <li>E-mail: <a class="link" href="mailto:contato@institutoalvia.com.br">contato@institutoalvia.com.br</a></li>
+        <li>Telefone/WhatsApp: <a class="link" href="https://wa.me/5511945341486" target="_blank" rel="noopener">(11) 94534-1486</a></li>
+      </ul>
+
+      <h2>2. Quais dados coletamos</h2>
+      <p>Coletamos apenas os dados que você nos fornece de forma voluntária, principalmente pelo formulário de contato e pelos canais de atendimento:</p>
+      <ul>
+        <li><strong>Dados de identificação e contato:</strong> nome, e-mail e telefone.</li>
+        <li><strong>Mensagem:</strong> o conteúdo que você escreve ao agendar uma visita ou tirar dúvidas, que pode incluir informações sobre a criança e sua trajetória escolar.</li>
+        <li><strong>Dados de navegação:</strong> informações técnicas básicas geradas automaticamente ao acessar o site (como endereço IP e tipo de dispositivo), coletadas pela nossa plataforma de hospedagem para segurança e funcionamento.</li>
+      </ul>
+      <p>
+        Não solicitamos, neste site, dados sensíveis (como informações de saúde ou diagnóstico).
+        Pedimos que não inclua esse tipo de informação nas mensagens; quando necessário, esses
+        assuntos são tratados diretamente com a coordenação, em canal apropriado.
+      </p>
+
+      <h2>3. Para que usamos seus dados</h2>
+      <ul>
+        <li>Responder ao seu contato e agendar visitas.</li>
+        <li>Prestar informações sobre a escola, o método e o processo de matrícula.</li>
+        <li>Manter o registro do atendimento e dar continuidade à comunicação.</li>
+        <li>Garantir a segurança e o bom funcionamento do site.</li>
+      </ul>
+      <p>
+        A base legal para esse tratamento é o seu <strong>consentimento</strong> e a adoção de
+        <strong>medidas preliminares a um possível contrato</strong> de prestação de serviços
+        educacionais, conforme a LGPD.
+      </p>
+
+      <h2>4. Com quem compartilhamos</h2>
+      <p>
+        Não vendemos nem cedemos seus dados. Podemos compartilhá-los apenas com prestadores de
+        serviço que dão suporte à nossa operação (por exemplo, hospedagem do site e ferramentas
+        de e-mail), sempre no limite necessário e com quem se compromete a protegê-los, ou
+        quando houver obrigação legal.
+      </p>
+
+      <h2>5. Por quanto tempo guardamos</h2>
+      <p>
+        Mantemos seus dados apenas pelo tempo necessário para atender à sua solicitação e cumprir
+        obrigações legais. Quando não houver mais finalidade que justifique a guarda, os dados são
+        eliminados ou anonimizados.
+      </p>
+
+      <h2>6. Cookies</h2>
+      <p>
+        Este site utiliza apenas os cookies necessários ao seu funcionamento. Não usamos cookies
+        de publicidade. Você pode bloquear ou apagar cookies nas configurações do seu navegador,
+        sem prejuízo à navegação nas páginas.
+      </p>
+
+      <h2>7. Seus direitos</h2>
+      <p>A qualquer momento, você pode solicitar:</p>
+      <ul>
+        <li>confirmação de que tratamos seus dados e acesso a eles;</li>
+        <li>correção de dados incompletos ou desatualizados;</li>
+        <li>anonimização, bloqueio ou eliminação de dados desnecessários;</li>
+        <li>a retirada do consentimento, quando for a base do tratamento.</li>
+      </ul>
+      <p>
+        Para exercer esses direitos, escreva para
+        <a class="link" href="mailto:contato@institutoalvia.com.br">contato@institutoalvia.com.br</a>.
+      </p>
+
+      <h2>8. Segurança</h2>
+      <p>
+        Adotamos medidas técnicas e organizacionais razoáveis para proteger seus dados contra
+        acesso não autorizado, perda ou uso indevido. Nenhum sistema é totalmente infalível, mas
+        trabalhamos para reduzir riscos continuamente.
+      </p>
+
+      <h2>9. Alterações desta política</h2>
+      <p>
+        Podemos atualizar esta política para refletir mudanças em nossas práticas ou na legislação.
+        A data no topo indica a versão vigente. Recomendamos revisá-la periodicamente.
+      </p>
+
+      <h2>10. Contato</h2>
+      <p>
+        Dúvidas sobre privacidade e proteção de dados podem ser enviadas para
+        <a class="link" href="mailto:contato@institutoalvia.com.br">contato@institutoalvia.com.br</a>.
+      </p>
+
+      <div class="note">
+        <strong>Texto-base a revisar.</strong> Esta política é um ponto de partida e ainda precisa
+        de validação jurídica antes da publicação definitiva. Itens a confirmar com a
+        coordenação/advogado(a): razão social e CNPJ, nome e contato do encarregado (DPO),
+        provedores efetivamente utilizados (hospedagem, e-mail, analytics) e o prazo de retenção
+        dos dados de contato.
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Instituto Alvia · Educação Especializada</span>
+    <a href="#top" class="to-top" aria-label="Voltar ao topo">
+      Voltar ao topo
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
