@@ -12,7 +12,7 @@ escola particular especializada na escolarização de crianças neurodivergentes
 | `privacidade.html` | Política de privacidade (LGPD), revisada. |
 | `fonts/` | Hey Comic — fonte de destaque da identidade (`.woff2` e `.ttf`). |
 | `video/` | Vídeo de fundo da faixa da citação. Placeholder livre (Pexels, sem atribuição). |
-| `img/` | Logo (`logo.png`) e imagem de compartilhamento Open Graph (`og.jpg`, 1200×630). |
+| `img/` | Logo (`logo.png`), imagem Open Graph (`og.jpg`, 1200×630) e favicons (`favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` — só o sol do logo). |
 
 ## Identidade
 
@@ -61,7 +61,6 @@ Ao trocar pelas fotos da escola: salve em `img/`, troque as URLs e mantenha o
 - [ ] Substituir o vídeo de fundo placeholder (`video/`) por filmagem própria da escola
 - [ ] Ligar o formulário de contato a um backend (Formspree, Vercel Function ou similar)
 - [ ] Revisar textos com a coordenação pedagógica
-- [ ] Favicon (a imagem de compartilhamento / Open Graph já está em `img/og.jpg`)
 - [ ] Adicionar números de investimento e projeção ao deck (slide entre o 14 e o 15)
 
 ## Rodando local
