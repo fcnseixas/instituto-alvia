@@ -12,7 +12,7 @@ escola particular especializada na escolarização de crianças neurodivergentes
 | `privacidade.html` | Política de privacidade (LGPD), revisada. |
 | `fonts/` | Hey Comic — fonte de destaque da identidade (`.woff2` e `.ttf`). |
 | `video/` | Vídeo de fundo da faixa da citação. Placeholder livre (Pexels, sem atribuição). |
-| `img/` | Logo (`logo.png`), imagem Open Graph (`og.jpg`, 1200×630) e favicons (`favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` — só o sol do logo). |
+| `img/` | Logo (`logo.png`), imagem Open Graph (`og.jpg`, 1200×630) e favicons (`favicon.png`, `favicon-32.png`, `apple-touch-icon.png` — o sol num círculo navy). |
 
 ## Identidade
 
