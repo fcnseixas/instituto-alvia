@@ -470,7 +470,7 @@ footer a:hover{color:var(--terra-soft)}
       <a href="#para-quem">Para quem</a>
       <a href="#metodo">Método</a>
       <a href="#ambientes">Ambientes</a>
-      <a href="#servicos">Serviços</a>
+      <!-- [OCULTO] link de Serviços no menu -->
       <a href="#contato" class="btn btn-primary btn-sm">Agendar visita</a>
     </nav>
     <button class="menu-toggle" id="menuBtn" aria-label="Abrir menu"><span></span><span></span><span></span></button>
@@ -766,7 +766,11 @@ footer a:hover{color:var(--terra-soft)}
 
 <!-- ============ SERVIÇOS ============ -->
 <section class="pad" id="servicos">
-  <div class="wrap split">
+  <div class="wrap">
+    <!-- [OCULTO] Bloco de Serviços especializados, desativado temporariamente.
+         Para reativar: apague esta abertura de comentário e o fechamento logo após o
+         </div> abaixo; volte a classe "wrap" para "wrap split" e tire o style inline
+         do div do card da Família.
     <div>
       <span class="eyebrow mono rv">Serviços especializados</span>
       <div class="rule rv"></div>
@@ -787,7 +791,8 @@ footer a:hover{color:var(--terra-soft)}
         <span class="pill dashed">novas especialidades conforme a demanda</span>
       </div>
     </div>
-    <div>
+    -->
+    <div style="max-width:720px;margin:0 auto">
       <div class="card rv d2" style="padding:36px 32px">
         <span class="mono" style="color:var(--terra)">Família como parte do processo</span>
         <h3 style="margin:14px 0 16px">A escola precisa dialogar com a vida fora dela</h3>
@@ -927,7 +932,7 @@ footer a:hover{color:var(--terra-soft)}
           <li><a href="#para-quem">Para quem</a></li>
           <li><a href="#metodo">Método e currículo</a></li>
           <li><a href="#ambientes">Ambientes</a></li>
-          <li><a href="#servicos">Serviços especializados</a></li>
+          <!-- [OCULTO] link de Serviços especializados no rodapé -->
         </ul>
       </div>
       <div>
